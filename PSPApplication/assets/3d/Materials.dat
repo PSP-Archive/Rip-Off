@@ -1,0 +1,203 @@
+
+//-----------------------------------------------
+//materials
+//-----------------------------------------------
+item MATERIALS_ITEM
+	integer numMaterials 23 
+	string material0 BGR_MATERIAL 
+	string material1 defMaterial 
+	string material2 SHIP_BLOOM1 
+	string material3 SHIP_BLOOM2 
+	string material4 FONT_MATERIAL 
+	string material5 MISSLE_BLOOM 
+	string material6 ICON0 
+	string material7 MAT_EXPLOSION 
+	string material8 MAT_EXPLOSION_BGR
+	string material9 MISSLE_BLOOM 
+	string material10 GUARDIAN1
+	string material11 GUARDIAN2
+	string material12 LASER1
+	string material13 LASER_BGR 
+	string material14 LASER_BGR1 
+	
+	string material15 COBRA_YELLOW 
+	string material16 COBRA_GREEN 
+	string material17 COBRA_RED
+	string material18 COBRA_BLUE
+	
+	string material19 COBRA_BLOOM_YELLOW 
+	string material20 COBRA_BLOOM_GREEN 
+	string material21 COBRA_BLOOM_RED
+	string material22 COBRA_BLOOM_BLUE
+	
+enditem 
+
+item BGR_MATERIAL
+	string texture BGR_TEX 
+enditem
+
+item defMaterial
+	string texture SHIP_BLOOM1_TEX 
+enditem
+
+item SHIP_BLOOM1
+	string texture SHIP_BLOOM1_TEX 
+enditem
+
+item SHIP_BLOOM2
+	string texture SHIP_BLOOM2_TEX 
+enditem 
+
+item FONT_MATERIAL 
+	//string texture SHIP_BLOOM1_TEX
+	string texture FONT_TEXTURE
+enditem 
+
+item ICON0
+	string texture ELECTRIC_TEX
+enditem
+
+item MAT_EXPLOSION
+	string texture EXPLOSION_TEX
+enditem
+
+item MAT_EXPLOSION_BGR
+	string texture EXPLOSION_BGR_TEX
+enditem
+
+item MISSLE_BLOOM
+	string texture MISSLE_BLOOM_TEX
+enditem
+
+item GUARDIAN1
+	string texture GUARDIAN1_TEX
+enditem
+
+item GUARDIAN2
+	string texture GUARDIAN2_TEX
+enditem
+
+item LASER1
+	string texture LASER1_TEX
+enditem
+
+item LASER_BGR
+	string texture SPOT1_TEX
+enditem
+
+item LASER_BGR1
+	string texture SPOT1_TEX
+enditem
+//------------------------------------------------
+item COBRA_RED
+	vector diffuse 0.84 0.68 0.2
+	string texture COBRA_TEX
+enditem
+
+item COBRA_YELLOW
+	//yellow
+	vector diffuse 0.84 0.68 0.2
+	string texture COBRA_TEX
+enditem
+
+item COBRA_BLUE
+	//light blue
+	vector diffuse 0.56 0.749 0.844
+	string texture COBRA_TEX
+enditem
+
+item COBRA_GREEN
+	//green
+	vector diffuse 0.26 0.51 0.18
+	string texture COBRA_TEX
+enditem
+
+
+
+//---------------------------------------------------
+
+item COBRA_BLOOM_RED
+	vector diffuse 0.84 0.68 0.2
+	string texture COBRA_BLOOM_TEX
+enditem
+
+item COBRA_BLOOM_YELLOW
+	//yellow
+	vector diffuse 0.84 0.68 0.2
+	string texture COBRA_BLOOM_TEX
+enditem
+
+item COBRA_BLOOM_BLUE
+	//light blue
+	vector diffuse 0.56 0.749 0.844
+	string texture COBRA_BLOOM_TEX
+enditem
+
+item COBRA_BLOOM_GREEN
+	//green
+	vector diffuse 0.26 0.51 0.18
+	string texture COBRA_BLOOM_TEX
+enditem
+
+
+
+
+//----------------------------------------------
+//			textures
+//----------------------------------------------
+item SHIP_BLOOM1_TEX
+	string path host0:assets/3d/textures/enfBack128_4444.bin
+enditem
+
+item SHIP_BLOOM2_TEX
+	string path host0:assets/3d/textures/guard128Bloom_4444.bin
+enditem 
+
+item BGR_TEX
+	integer blendOn 0 
+	string path host0:assets/3d/textures/bgr512_5650.bin
+enditem
+
+item MISSLE_BLOOM_TEX
+	string path host0:assets/3d/textures/missle64_4444.bin
+enditem
+
+item ELECTRIC_TEX
+	string path host0:assets/3d/textures/electric128_4444.bin
+enditem
+
+item EXPLOSION_TEX
+	string path host0:assets/3d/textures/explosion32_5650.bin
+enditem
+
+item EXPLOSION_BGR_TEX
+	string path host0:assets/3d/textures/explosionBgr128_4444.bin
+enditem
+
+item GUARDIAN1_TEX
+	string path host0:assets/3d/textures/enf64_4444.bin
+enditem
+
+item GUARDIAN2_TEX
+	string path host0:assets/3d/textures/guard128_4444.bin
+enditem
+
+item LASER1_TEX
+	string path host0:assets/3d/textures/laser64_4444.bin
+enditem
+
+item COBRA_TEX
+	string path host0:assets/3d/textures/thief1_64_4444.bin
+enditem
+
+item COBRA_BLOOM_TEX
+	string path host0:assets/3d/textures/cobraBloom64_8888.bin
+enditem
+
+item SPOT1_TEX
+	string path host0:assets/3d/textures/spot32_4444.bin
+enditem
+
+item FONT_TEXTURE
+	string path host0:assets/3d/textures/font256_4444.bin
+enditem

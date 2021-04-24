@@ -1,0 +1,1 @@
+#include "vectorgraphics/loaders/SceneVectorLoader.h"

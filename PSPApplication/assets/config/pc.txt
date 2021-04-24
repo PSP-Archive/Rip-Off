@@ -1,0 +1,105 @@
+
+//--------------------------------------------------------------------------------
+// PC AUDIO
+//--------------------------------------------------------------------------------
+
+// Sound to be played when a guardian ship shoots
+item GUARDIAN_SHOOT_SFX
+	string wavFile assets/sounds/efire.wav
+	integer looping 0
+enditem
+
+// Sound to be played when a thief ship shoots
+item THIEF_SHOOT_SFX
+	string wavFile assets/sounds/efire.wav
+	integer looping 0
+enditem
+
+// Sound to be played when a ship explodes
+item EXPLODE_SFX
+	string wavFile assets/sounds/explosn.wav
+	integer looping 0
+enditem
+
+// Sound to be played when a ship explodes
+item BACKGROUND_MUSIC
+	string wavFile assets/sounds/eattack.wav
+	integer looping 1
+enditem
+
+// Phase background music
+item PHASE1_MUSIC
+	string wavFile assets/sounds/bg1.wav
+	integer looping 1
+enditem
+item PHASE2_MUSIC
+	string wavFile assets/sounds/bg2.wav
+	integer looping 1
+enditem
+item PHASE3_MUSIC
+	string wavFile assets/sounds/bg3.wav
+	integer looping 1
+enditem
+item PHASE4_MUSIC
+	string wavFile assets/sounds/bg4.wav
+	integer looping 1
+enditem
+item PHASE5_MUSIC
+	string wavFile assets/sounds/bg5.wav
+	integer looping 1
+enditem
+item PHASE6_MUSIC
+	string wavFile assets/sounds/bg6.wav
+	integer looping 1
+enditem
+
+//--------------------------------------------------------------------------------
+// PC OS
+//--------------------------------------------------------------------------------
+
+item OS
+	vector windowSize 1024 768
+	integer fullscreen 1	
+enditem
+
+//--------------------------------------------------------------------------------
+// PC INPUT
+//--------------------------------------------------------------------------------
+
+item INPUT
+	// Player 1 keyboard controls, use "none" for no binding
+	string keyboard1_UP w 
+	string keyboard1_DOWN s 
+	string keyboard1_LEFT a 
+	string keyboard1_RIGHT d 
+	string keyboard1_BTN1 space 
+	string keyboard1_BTN2 1
+	string keyboard1_BTN3 2 
+	string keyboard1_BTN4 3 
+	string keyboard1_START tab 
+
+	// Player 2 keyboard controls, use "none" for no binding
+	string keyboard2_UP up 
+	string keyboard2_DOWN down 
+	string keyboard2_LEFT left 
+	string keyboard2_RIGHT right
+	string keyboard2_BTN1 rightControl
+	string keyboard2_BTN2 delete
+	string keyboard2_BTN3 pgdn
+	string keyboard2_BTN4 end
+	string keyboard2_START return 
+
+	// Player 1 gamepad controls
+	string gamepad1_BTN1 button1
+	string gamepad1_BTN2 button2
+	string gamepad1_BTN3 button3
+	string gamepad1_BTN4 button4
+	string gamepad1_START button9 
+
+	// Player 2 gamepad controls
+	string gamepad2_BTN1 button1
+	string gamepad2_BTN2 button2
+	string gamepad2_BTN3 button3
+	string gamepad2_BTN4 button4
+	string gamepad2_START button5 
+enditem

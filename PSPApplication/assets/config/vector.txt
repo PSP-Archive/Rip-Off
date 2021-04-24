@@ -1,0 +1,127 @@
+//--------------------------------------------------------------------------------
+// VECTOR GRAPHICS
+//--------------------------------------------------------------------------------
+
+// Graphics for the first guardian ship
+item GUARDIAN1_GFX
+	string geometry host0:assets/vector/guardian1.dat
+	vector color 1 1 1
+	float lineWidth 1.5
+	float scale 0.12
+enditem
+
+// Graphics for the second guardian ship
+item GUARDIAN2_GFX
+	string geometry host0:assets/vector/guardian2.dat
+	vector color 1 1 1
+	float lineWidth 1.5
+	float scale 0.14
+enditem
+
+// Graphics for the guardian's bullet
+item GUARDIAN_BULLET_GFX
+	string geometry host0:assets/vector/bullet.dat
+	vector color 1 1 1
+	float lineWidth 2
+	float scale 1.2
+enditem
+
+// Graphics for the cargo canister
+item CARGO_GFX
+	string geometry host0:assets/vector/cargo.dat
+	vector color 0 0.5 0
+	float lineWidth 3.0
+	float scale 0.04
+enditem
+
+// Graphics for the cargo canister
+item CARGO_HOOK_GFX
+	string geometry host0:assets/vector/cargoHook.dat
+	vector color 0 0 0.5
+	float lineWidth 1.5
+	float scale 1
+enditem
+
+item SCENE_GFX
+enditem
+
+// Graphics for the first guardian ship
+item THIEF1_GFX
+	string geometry host0:assets/vector/thief1.dat
+	vector color 0.5 1 1
+	float lineWidth 1.5
+	float scale 0.14
+enditem
+item THIEF2_GFX
+	string geometry host0:assets/vector/thief2.dat
+	vector color 0.5 1 1
+	float lineWidth 1.5
+	float scale 0.18
+enditem
+item THIEF3_GFX
+	string geometry host0:assets/vector/thief3.dat
+	vector color 0.5 1 1
+	float lineWidth 1.5
+	float scale 0.125
+enditem
+item THIEF4_GFX
+	string geometry host0:assets/vector/thief4.dat
+	vector color 0.5 1 1
+	float lineWidth 1.5
+	float scale 0.14
+enditem
+item THIEF5_GFX
+	string geometry host0:assets/vector/thief5.dat
+	vector color 0.5 1 1
+	float lineWidth 1.5
+	float scale 0.14
+enditem
+item THIEF6_GFX
+	string geometry host0:assets/vector/thief6.dat
+	vector color 0.5 1 1
+	float lineWidth 1.5
+	float scale 0.16
+enditem
+
+// Graphics effects
+item THIEF_EXPLOSION1
+	string type lineExplosion
+	vector color 1 1 1
+	float lineWidth 1.5
+	float scale 0.2
+	integer lineCount 20
+	float duration 1
+	float angleRandomness 15
+	float lengthRandomness 0.2
+enditem
+item THIEF_EXPLOSION2
+	string type triangleExplosion
+	vector color 1 1 1
+	float lineWidth 1.5
+	float scale 0.075
+	integer triangleCount 5
+	float duration 1
+	float triangleSize 0.4
+enditem
+item GUARDIAN_EXPLOSION1
+	string type triangleExplosion
+	vector color 1 1 1
+	float lineWidth 1.5
+	float scale 0.075
+	integer triangleCount 8
+	float duration 1
+	float triangleSize 0.4
+enditem
+item GUARDIAN_EXPLOSION2
+	string type none
+enditem
+item LASER
+	string type laser
+	vector color 1 1 1
+	float lineWidth 1.5
+	float scale 1
+	float duration 0.05
+	float length 0.4
+	float width 0.01
+	float offset 0.1
+enditem

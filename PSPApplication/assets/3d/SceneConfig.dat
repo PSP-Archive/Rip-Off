@@ -1,0 +1,37 @@
+
+item SCENE_CONF 
+	//1 quad for background
+	integer bgr 2 
+	string bgrMaterial bgrMat 
+	integer numBgrObjects 1 
+	string materials MATERIALS_ITEM 
+enditem
+
+//-----------------------------------------------
+//lights
+//-----------------------------------------------
+
+item LIGHT0 
+	vector position 0 0 7 
+	vector diffuse 1 1 1 
+	vector ambient 0 0 0 
+	vector specular 1 1 1 
+enditem 
+
+//-----------------------------------------------
+//scene objects that are included in the background
+//-----------------------------------------------
+
+
+
+
+item BGR_OBJECT0 
+	string type sprite
+	float radius 1.2
+	vector centre 0 0 0
+	string iconMaterial BGR_MATERIAL
+	float iconWidth2 2.13 //2.064
+	float iconHeight2 1.15 
+	//float iconWidth2 1.764
+	//float iconHeight2 1 
+enditem 

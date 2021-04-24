@@ -1,0 +1,98 @@
+//--------------------------------------------------------------------------------
+// PSP AUDIO
+//--------------------------------------------------------------------------------
+
+// Sound to be played when a guardian ship shoots
+item GUARDIAN_SHOOT_SFX
+	string vagFile host0:assets/sounds/efire.vag
+	integer looping 0
+enditem
+
+// Sound to be played when a thief ship shoots
+item THIEF_SHOOT_SFX
+	string vagFile host0:assets/sounds/efire.vag
+	integer looping 0
+enditem
+
+// Sound to be played when a ship explodes
+item EXPLODE_SFX
+	string vagFile host0:assets/sounds/explosn.vag
+	integer looping 0
+enditem
+
+// Sound to be played when a ship hooks a cargo
+item THIEF_HOOK_SFX
+	string vagFile host0:assets/sounds/hookCargo.vag
+	integer looping 0
+enditem
+
+// Sound to be played on menu
+item MENU_MUSIC
+	string vagFile host0:assets/sounds/Menu.vag
+	integer looping 1
+enditem
+item KEY_SFX
+	string vagFile host0:assets/sounds/key.vag
+	integer looping 0
+enditem
+item SELECT_SFX
+	string vagFile host0:assets/sounds/key.vag
+	integer looping 0
+enditem
+
+// Phase background music
+item BACKGROUND_MUSIC
+	string vagFile host0:assets/sounds/Background.vag
+	integer looping 1
+enditem
+
+item PHASE1_MUSIC
+	string vagFile host0:assets/sounds/SpaceJet1.vag
+	integer looping 1
+enditem
+item PHASE2_MUSIC
+	string vagFile host0:assets/sounds/SpaceJet2.vag
+	integer looping 1
+enditem
+item PHASE3_MUSIC
+	string vagFile host0:assets/sounds/SpaceJet1.vag
+	integer looping 1
+enditem
+item PHASE4_MUSIC
+	string vagFile host0:assets/sounds/SpaceJet2.vag
+	integer looping 1
+enditem
+item PHASE5_MUSIC
+	string vagFile host0:assets/sounds/SpaceJet1.vag
+	integer looping 1
+enditem
+item PHASE6_MUSIC
+	string vagFile host0:assets/sounds/SpaceJet2.vag
+	integer looping 1
+enditem
+
+
+
+
+//--------------------------------------------------------------------------------
+// PSP OS
+//--------------------------------------------------------------------------------
+
+item OS
+	vector windowSize 480 272
+	integer fullscreen 1
+enditem
+
+//--------------------------------------------------------------------------------
+// PSP INPUT
+//--------------------------------------------------------------------------------
+
+item INPUT
+	// Player 1 gamepad controls
+	string gamepad1_BTN1 triangle
+	string gamepad1_BTN2 square
+	string gamepad1_BTN3 circle
+	string gamepad1_BTN4 cross
+	string gamepad1_START start 
+	string gamepad1_SELECT select 
+enditem

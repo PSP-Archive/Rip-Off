@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PSPCore", "PSPCore.vcproj", "{D4F0B7D5-36F2-4645-9207-25F09887425A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		PSP Debug Opt|Win32 = PSP Debug Opt|Win32
+		PSP Debug|Win32 = PSP Debug|Win32
+		PSP Release|Win32 = PSP Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Debug Opt|Win32.ActiveCfg = PSP Debug Opt|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Debug Opt|Win32.Build.0 = PSP Debug Opt|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Debug|Win32.ActiveCfg = PSP Debug|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Debug|Win32.Build.0 = PSP Debug|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Release|Win32.ActiveCfg = PSP Release|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Release|Win32.Build.0 = PSP Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

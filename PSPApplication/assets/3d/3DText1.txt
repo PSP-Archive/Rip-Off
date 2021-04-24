@@ -1,0 +1,243 @@
+item Q 
+	float width 0.02 
+	float height 0.03 
+	float texCoords0 0.689 
+	float texCoords1 0.568 
+	float texCoords2 0.766 
+	float texCoords3 0.568 
+	float texCoords4 0.766 
+	float texCoords5 0.700 
+	float texCoords6 0.689 
+	float texCoords7 0.700 
+enditem 
+item R 
+	float width 0.02 
+	float texCoords0 0.817 
+	float texCoords1 0.583 
+	float texCoords2 0.888 
+	float texCoords3 0.583 
+	float texCoords4 0.888 
+	float texCoords5 0.684 
+	float texCoords6 0.817 
+	float texCoords7 0.684 
+enditem 
+item S 
+	float width 0.016 
+	float texCoords0 0.168 
+	float texCoords1 0.451 
+	float texCoords2 0.216 
+	float texCoords3 0.451 
+	float texCoords4 0.216 
+	float texCoords5 0.553 
+	float texCoords6 0.168 
+	float texCoords7 0.553 
+enditem 
+item T 
+	float width 0.015 
+	float texCoords0 0.298 
+	float texCoords1 0.453 
+	float texCoords2 0.356 
+	float texCoords3 0.453 
+	float texCoords4 0.356 
+	float texCoords5 0.552 
+	float texCoords6 0.298 
+	float texCoords7 0.552 
+enditem 
+item U 
+	float width 0.02 
+	float texCoords0 0.431 
+	float texCoords1 0.452 
+	float texCoords2 0.504 
+	float texCoords3 0.452 
+	float texCoords4 0.504 
+	float texCoords5 0.552 
+	float texCoords6 0.431 
+	float texCoords7 0.552 
+enditem 
+item V 
+	float width 0.02 
+	float texCoords0 0.559 
+	float texCoords1 0.453 
+	float texCoords2 0.627 
+	float texCoords3 0.453 
+	float texCoords4 0.627 
+	float texCoords5 0.552 
+	float texCoords6 0.559 
+	float texCoords7 0.552 
+enditem 
+item W 
+	float width 0.023 
+	float texCoords0 0.679 
+	float texCoords1 0.453 
+	float texCoords2 0.775 
+	float texCoords3 0.453 
+	float texCoords4 0.775 
+	float texCoords5 0.552 
+	float texCoords6 0.679 
+	float texCoords7 0.552 
+enditem 
+item X 
+	float width 0.02 
+	float texCoords0 0.821 
+	float texCoords1 0.453 
+	float texCoords2 0.893 
+	float texCoords3 0.453 
+	float texCoords4 0.893 
+	float texCoords5 0.552 
+	float texCoords6 0.821 
+	float texCoords7 0.552 
+enditem 
+item Y 
+	float width 0.018 
+	float texCoords0 0.174 
+	float texCoords1 0.323 
+	float texCoords2 0.24 
+	float texCoords3 0.323 
+	float texCoords4 0.24 
+	float texCoords5 0.422 
+	float texCoords6 0.174 
+	float texCoords7 0.422 
+enditem 
+item Z 
+	float width 0.02 
+	float texCoords0 0.286 
+	float texCoords1 0.323 
+	float texCoords2 0.348 
+	float texCoords3 0.323 
+	float texCoords4 0.348 
+	float texCoords5 0.422 
+	float texCoords6 0.286 
+	float texCoords7 0.422 
+enditem 
+item D0 
+	float width 0.02 
+	float texCoords0 0.427 
+	float texCoords1 0.322 
+	float texCoords2 0.497 
+	float texCoords3 0.322 
+	float texCoords4 0.497 
+	float texCoords5 0.421 
+	float texCoords6 0.427 
+	float texCoords7 0.421 
+enditem 
+item D1 
+	float width 0.01 
+	float texCoords0 0.574 
+	float texCoords1 0.323 
+	float texCoords2 0.609 
+	float texCoords3 0.323 
+	float texCoords4 0.609 
+	float texCoords5 0.409 
+	float texCoords6 0.574 
+	float texCoords7 0.409 
+enditem 
+item D2 
+	float width 0.02 
+	float texCoords0 0.676 
+	float texCoords1 0.32 
+	float texCoords2 0.749 
+	float texCoords3 0.32 
+	float texCoords4 0.749 
+	float texCoords5 0.421 
+	float texCoords6 0.676 
+	float texCoords7 0.421 
+enditem 
+item D3 
+	float width 0.02 
+	float texCoords0 0.803 
+	float texCoords1 0.322 
+	float texCoords2 0.878 
+	float texCoords3 0.322 
+	float texCoords4 0.878 
+	float texCoords5 0.421 
+	float texCoords6 0.803 
+	float texCoords7 0.421 
+enditem 
+item D4 
+	float width 0.02 
+	float texCoords0 0.169 
+	float texCoords1 0.193 
+	float texCoords2 0.243 
+	float texCoords3 0.193 
+	float texCoords4 0.243 
+	float texCoords5 0.29 
+	float texCoords6 0.169 
+	float texCoords7 0.29 
+enditem 
+item D5 
+	float width 0.02 
+	float texCoords0 0.295 
+	float texCoords1 0.191 
+	float texCoords2 0.37 
+	float texCoords3 0.191 
+	float texCoords4 0.37 
+	float texCoords5 0.292 
+	float texCoords6 0.295 
+	float texCoords7 0.292 
+enditem 
+item D6 
+	float width 0.02 
+	float texCoords0 0.427 
+	float texCoords1 0.191 
+	float texCoords2 0.5 
+	float texCoords3 0.191 
+	float texCoords4 0.5 
+	float texCoords5 0.29 
+	float texCoords6 0.427 
+	float texCoords7 0.29 
+enditem 
+item D7 
+	float width 0.02 
+	float texCoords0 0.558 
+	float texCoords1 0.193 
+	float texCoords2 0.628 
+	float texCoords3 0.193 
+	float texCoords4 0.628 
+	float texCoords5 0.292 
+	float texCoords6 0.558 
+	float texCoords7 0.292 
+enditem 
+item D8 
+	float width 0.02 
+	float texCoords0 0.668 
+	float texCoords1 0.191 
+	float texCoords2 0.749 
+	float texCoords3 0.191 
+	float texCoords4 0.749 
+	float texCoords5 0.29 
+	float texCoords6 0.668 
+	float texCoords7 0.29 
+enditem 
+item D9 
+	float width 0.02 
+	float texCoords0 0.804 
+	float texCoords1 0.191 
+	float texCoords2 0.876 
+	float texCoords3 0.191 
+	float texCoords4 0.876 
+	float texCoords5 0.29 
+	float texCoords6 0.804 
+	float texCoords7 0.29 
+enditem 
+item S_STAR 
+	float width 0.02 
+	float texCoords0 0.292 
+	float texCoords1 0.09 
+	float texCoords2 0.338 
+	float texCoords3 0.09 
+	float texCoords4 0.338 
+	float texCoords5 0.193
+	float texCoords6 0.292 
+	float texCoords7 0.193 
+enditem 
+item SPACE 
+	float width 0.02 
+	float texCoords0 0.0 
+	float texCoords1 0.0 
+	float texCoords2 0.1 
+	float texCoords3 0.0 
+	float texCoords4 0.1 
+	float texCoords5 0.1 
+	float texCoords6 0.0 
+	float texCoords7 0.1 
+enditem 

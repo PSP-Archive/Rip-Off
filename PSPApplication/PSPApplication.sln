@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PSPApplication", "PSPApplication.vcproj", "{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4F0B7D5-36F2-4645-9207-25F09887425A} = {D4F0B7D5-36F2-4645-9207-25F09887425A}
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2} = {8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PSPCore", "..\Core\PSPCore.vcproj", "{D4F0B7D5-36F2-4645-9207-25F09887425A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "PSPGame", "..\Game\PSPGame.vcproj", "{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}"
+	ProjectSection(ProjectDependencies) = postProject
+		{D4F0B7D5-36F2-4645-9207-25F09887425A} = {D4F0B7D5-36F2-4645-9207-25F09887425A}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		PSP Debug Opt|Win32 = PSP Debug Opt|Win32
+		PSP Debug|Win32 = PSP Debug|Win32
+		PSP Release|Win32 = PSP Release|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.Debug|Win32.ActiveCfg = PSP Debug|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.Debug|Win32.Build.0 = PSP Debug|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.PSP Debug Opt|Win32.ActiveCfg = PSP Debug Opt|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.PSP Debug Opt|Win32.Build.0 = PSP Debug Opt|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.PSP Debug|Win32.ActiveCfg = PSP Debug|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.PSP Debug|Win32.Build.0 = PSP Debug|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.PSP Release|Win32.ActiveCfg = PSP Release|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.PSP Release|Win32.Build.0 = PSP Release|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.Release|Win32.ActiveCfg = PSP Release|Win32
+		{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}.Release|Win32.Build.0 = PSP Release|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.Debug|Win32.ActiveCfg = PSP Debug|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.Debug|Win32.Build.0 = PSP Debug|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Debug Opt|Win32.ActiveCfg = PSP Debug Opt|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Debug Opt|Win32.Build.0 = PSP Debug Opt|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Debug|Win32.ActiveCfg = PSP Debug|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Debug|Win32.Build.0 = PSP Debug|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Release|Win32.ActiveCfg = PSP Release|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.PSP Release|Win32.Build.0 = PSP Release|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.Release|Win32.ActiveCfg = PSP Release|Win32
+		{D4F0B7D5-36F2-4645-9207-25F09887425A}.Release|Win32.Build.0 = PSP Release|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.Debug|Win32.ActiveCfg = PSP Debug|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.Debug|Win32.Build.0 = PSP Debug|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.PSP Debug Opt|Win32.ActiveCfg = PSP Debug Opt|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.PSP Debug Opt|Win32.Build.0 = PSP Debug Opt|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.PSP Debug|Win32.ActiveCfg = PSP Debug|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.PSP Debug|Win32.Build.0 = PSP Debug|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.PSP Release|Win32.ActiveCfg = PSP Release|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.PSP Release|Win32.Build.0 = PSP Release|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.Release|Win32.ActiveCfg = PSP Release|Win32
+		{8A71DAFF-0CD9-4030-A45F-7BBEE1B090C2}.Release|Win32.Build.0 = PSP Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="Windows-1252"?>
+<VisualStudioProject
+	ProjectType="Visual C++"
+	Version="9.00"
+	Name="PSPApplication"
+	ProjectGUID="{B7410BDD-D6FB-4C13-B929-9A89D81C3E69}"
+	RootNamespace="PSPApplication"
+	TargetFrameworkVersion="196613"
+	>
+	<Platforms>
+		<Platform
+			Name="Win32"
+		/>
+	</Platforms>
+	<ToolFiles>
+	</ToolFiles>
+	<Configurations>
+		<Configuration
+			Name="PSP Debug|Win32"
+			OutputDirectory="PSP_Debug"
+			IntermediateDirectory="PSP_Debug"
+			ConfigurationType="1"
+			DeleteExtensionsOnClean="*.obj;*.d;*.map;*.lst;*.pch;*.prx;$(TargetPath)"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-g -O0"
+				AdditionalIncludeDirectories=""
+				PreprocessorDefinitions="SN_TARGET_PSP_PRX;_DEBUG;_SPSP; _3D;_SN_STL_IOSTREAMS;"
+				PrecompiledHeaderFile=""
+				ProgramDataBaseFileName=""
+				CompileAs="0"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="true"
+				AdditionalOptions="-g"
+				AdditionalDependencies="PSPGame.lib crt0_prx.o PSPCore.lib libsas.a libwave.a PSP.lib utility_stub.a"
+				OutputFile="$(OutDir)/tempprx.obj"
+				AdditionalLibraryDirectories="C:\Water\Game\PSP Debug Opt;C:\Water\Core\PSP Debug Opt"
+				IgnoreAllDefaultLibraries="false"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Generating Debug PRX &quot;$(TargetDir)$(ProjectName).prx&quot;"
+				CommandLine="pspprxgen &quot;$(TargetPath)&quot; -r &quot;$(TargetDir)$(ProjectName).prx&quot;"
+			/>
+		</Configuration>
+		<Configuration
+			Name="PSP Release|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(SolutionDir)$(ConfigurationName)\$(ProjectName)\"
+			ConfigurationType="1"
+			DeleteExtensionsOnClean="*.obj;*.d;*.map;*.lst;*.pch;*.prx;$(TargetPath)"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-O3"
+				AdditionalIncludeDirectories="&quot;$(ProjectDir)&quot;;..\Game;..\Core;..\Dependencies\inc"
+				PreprocessorDefinitions="SN_TARGET_PSP_PRX;_DEBUG;_SPSP; _3D;_SN_STL_IOSTREAMS;"
+				ProgramDataBaseFileName=""
+				CompileAs="0"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				AdditionalOptions="-Wl,-S -Wl,-Map,&quot;$(OutDir)/$(ProjectName).map&quot; -Wl,-sn-full-map"
+				AdditionalDependencies="crt0_prx.o libkernel.a libsfmt11213.a PSPCore.lib PSPGame.lib PSP.lib utility_stub.a libwave.a libsas_weak.a wlan_stub.a pspnet_stub_weak.a pspnet_adhoc_stub_weak.a pspnet_adhocctl_stub_weak.a pspnet_adhoc_discover_stub_weak.a libheap.a"
+				OutputFile="$(OutDir)/tempprx.obj"
+				AdditionalLibraryDirectories="..\Dependencies\lib;$(OutDir)"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Generating Release PRX &quot;$(TargetDir)$(ProjectName).prx&quot;"
+				CommandLine="pspprxgen &quot;$(TargetPath)&quot; -o &quot;$(TargetDir)$(ProjectName).prx&quot;"
+			/>
+		</Configuration>
+		<Configuration
+			Name="PSP Debug Opt|Win32"
+			OutputDirectory="$(SolutionDir)$(ConfigurationName)"
+			IntermediateDirectory="$(SolutionDir)$(ConfigurationName)\$(ProjectName)\"
+			ConfigurationType="1"
+			DeleteExtensionsOnClean="*.obj;*.d;*.map;*.lst;*.pch;*.prx;$(TargetPath)"
+			>
+			<Tool
+				Name="VCPreBuildEventTool"
+			/>
+			<Tool
+				Name="VCCustomBuildTool"
+			/>
+			<Tool
+				Name="VCXMLDataGeneratorTool"
+			/>
+			<Tool
+				Name="VCWebServiceProxyGeneratorTool"
+			/>
+			<Tool
+				Name="VCMIDLTool"
+			/>
+			<Tool
+				Name="VCCLCompilerTool"
+				AdditionalOptions="-g -O3"
+				AdditionalIncludeDirectories="&quot;$(ProjectDir)&quot;;..\Game;..\Core;..\Dependencies\inc"
+				PreprocessorDefinitions="SN_TARGET_PSP_PRX;_DEBUG;_SPSP; _3D;_SN_STL_IOSTREAMS;"
+				PrecompiledHeaderFile=""
+				ProgramDataBaseFileName=""
+				WarningLevel="4"
+				CompileAs="0"
+			/>
+			<Tool
+				Name="VCManagedResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCResourceCompilerTool"
+			/>
+			<Tool
+				Name="VCPreLinkEventTool"
+			/>
+			<Tool
+				Name="VCLinkerTool"
+				LinkLibraryDependencies="true"
+				AdditionalOptions="-g"
+				AdditionalDependencies="crt0_prx.o libkernel.a libsfmt11213.a PSPCore.lib PSPGame.lib PSP.lib utility_stub.a libwave.a libsas_weak.a wlan_stub.a pspnet_stub_weak.a pspnet_adhoc_stub_weak.a pspnet_adhocctl_stub_weak.a pspnet_adhoc_discover_stub_weak.a libheap.a"
+				OutputFile="$(OutDir)/tempprx.obj"
+				AdditionalLibraryDirectories="..\Dependencies\lib;$(OutDir)"
+				IgnoreAllDefaultLibraries="false"
+			/>
+			<Tool
+				Name="VCALinkTool"
+			/>
+			<Tool
+				Name="VCManifestTool"
+			/>
+			<Tool
+				Name="VCXDCMakeTool"
+			/>
+			<Tool
+				Name="VCBscMakeTool"
+			/>
+			<Tool
+				Name="VCFxCopTool"
+			/>
+			<Tool
+				Name="VCAppVerifierTool"
+			/>
+			<Tool
+				Name="VCPostBuildEventTool"
+				Description="Generating Debug PRX &quot;$(TargetDir)$(ProjectName).prx&quot;"
+				CommandLine="pspprxgen &quot;$(TargetPath)&quot; -r &quot;$(TargetDir)$(ProjectName).prx&quot;"
+			/>
+		</Configuration>
+	</Configurations>
+	<References>
+	</References>
+	<Files>
+		<Filter
+			Name="Source Files"
+			Filter="cpp;c;cxx;cc;s;asm"
+			>
+			<File
+				RelativePath=".\load_modules.c"
+				>
+			</File>
+			<File
+				RelativePath=".\main.cpp"
+				>
+			</File>
+		</Filter>
+		<Filter
+			Name="Header Files"
+			Filter="h;hpp"
+			>
+			<File
+				RelativePath=".\load_modules.h"
+				>
+			</File>
+		</Filter>
+		<File
+			RelativePath=".\PrxPreloads.txt"
+			>
+		</File>
+		<File
+			RelativePath="C:\Program Files\SN Systems\PSP\lib\psp.ld"
+			>
+		</File>
+		<File
+			RelativePath=".\ReadMe_GP.txt"
+			>
+		</File>
+	</Files>
+	<Globals>
+	</Globals>
+</VisualStudioProject>

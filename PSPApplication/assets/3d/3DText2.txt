@@ -1,0 +1,22 @@
+item EXCLAMATION 
+	float width 0.01 
+	float texCoords0 0.423 
+	float texCoords1 0.061 
+	float texCoords2 0.457 
+	float texCoords3 0.061 
+	float texCoords4 0.457 
+	float texCoords5 0.159 
+	float texCoords6 0.423 
+	float texCoords7 0.159 
+enditem 
+item COLUMN 
+	float width 0.01 
+	float texCoords0 0.171 
+	float texCoords1 0.061 
+	float texCoords2 0.197 
+	float texCoords3 0.061 
+	float texCoords4 0.197 
+	float texCoords5 0.159 
+	float texCoords6 0.171 
+	float texCoords7 0.159 
+enditem 

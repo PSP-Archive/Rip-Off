@@ -1,0 +1,108 @@
+//--------------------------------------------------------------------------------
+// GAMEPLAY
+//--------------------------------------------------------------------------------
+
+// Game difficulty parameters
+item GAME
+	float shipSpeedIncrement 0.1;
+	float spawnPointOffset 0.15;
+	float distanceFromSpawnPoint 0.1;
+enditem
+
+// Parameters for the first guardian ship
+item GUARDIAN1
+	float mass 1
+	float radius 0.12
+	float throttle 10
+	float steering 250
+	float drag 0.8
+	float maxSpeed 1
+	float respawnTime 1.5
+	vector respawnPoint 0.95 0.0
+	float respawnRotation 180
+enditem
+
+// Parameters for the second guardian ship
+item GUARDIAN2
+	float mass 1
+	float radius 0.14
+	float throttle 10
+	float steering 250
+	float drag 0.8
+	float maxSpeed 1
+	float respawnTime 1.5
+	vector respawnPoint -0.95 0.0
+	float respawnRotation 0
+enditem
+
+// Parameters for the cargo
+item CARGO
+enditem
+
+// Parameters for the guardians bullet
+item GUARDIAN_BULLET
+	float speed 1.8
+	float radius 0.01
+enditem
+
+// Parameters for the thief ships
+item THIEF1
+	float mass 1
+	float radius 0.1
+	float throttle 10
+	float steering 360
+	float drag 1
+	float maxSpeed 0.5
+	float cargoCarryDistance 0.12
+	float laserLength 0.5
+enditem
+item THIEF2
+	float mass 1
+	float radius 0.1
+	float throttle 10
+	float steering 360
+	float drag 1
+	float maxSpeed 0.5
+	float cargoCarryDistance 0.12
+	float laserLength 0.5
+enditem
+item THIEF3
+	float mass 1
+	float radius 0.1
+	float throttle 10
+	float steering 360
+	float drag 1
+	float maxSpeed 0.5
+	float cargoCarryDistance 0.12
+	float laserLength 0.5
+enditem
+item THIEF4
+	float mass 1
+	float radius 0.1
+	float throttle 10
+	float steering 360
+	float drag 1
+	float maxSpeed 0.5
+	float cargoCarryDistance 0.12
+	float laserLength 0.5
+enditem
+item THIEF5
+	float mass 1
+	float radius 0.1
+	float throttle 10
+	float steering 360
+	float drag 1
+	float maxSpeed 0.5
+	float cargoCarryDistance 0.12
+	float laserLength 0.5
+enditem
+item THIEF6
+	float mass 1
+	float radius 0.1
+	float throttle 10
+	float steering 360
+	float drag 1
+	float maxSpeed 0.5
+	float cargoCarryDistance 0.12
+	float laserLength 0.5
+enditem

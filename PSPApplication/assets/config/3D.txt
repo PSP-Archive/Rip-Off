@@ -1,0 +1,279 @@
+ 
+//--------------------------------------------------------------------------------
+// Materials config file
+//--------------------------------------------------------------------------------
+
+item MATERIALS_GFX
+	string materialsConfigFile host0:assets/3d/Materials.dat
+enditem
+
+//--------------------------------------------------------------------------------
+// 3D GRAPHICS
+//--------------------------------------------------------------------------------
+
+// Graphics for the first guardian ship
+item GUARDIAN1_GFX
+	float radius 0.1
+	string type sprite
+	
+	string iconMaterialBack SHIP_BLOOM2
+	float iconWidth2_b 0.17
+	float iconHeight2_b 0.17
+	
+	string iconMaterial GUARDIAN2
+	float iconWidth2 0.1
+	float iconHeight2 0.1
+	
+enditem
+
+// Graphics for the second guardian ship
+item GUARDIAN2_GFX
+	
+	float radius 0.1
+	string type sprite
+	
+	string iconMaterialBack SHIP_BLOOM1
+	float iconWidth2_b 0.13
+	float iconHeight2_b 0.21
+	
+	
+	string iconMaterial GUARDIAN1
+	float iconWidth2 0.06
+	float iconHeight2 0.12
+	
+enditem
+
+// Graphics for the guardian's bullet
+item GUARDIAN_BULLET_GFX
+	float radius 0.04
+	string type sprite
+	string iconMaterial MISSLE_BLOOM
+	float iconWidth2 0.05
+	float iconHeight2 0.025
+enditem
+
+// Graphics for the cargo canister
+item CARGO_GFX
+	float radius 0.04
+	string type sprite
+	string iconMaterial ICON0	
+	float iconWidth2 0.07
+	float iconHeight2 0.07
+enditem
+
+// Graphics for the cargo canister
+item CARGO_HOOK_GFX
+	float radius 0.01
+enditem
+
+// Graphics for the first guardian ship
+item THIEF1_GFX
+	float radius 0.1
+	string type sprite
+	
+	string iconMaterial COBRA_YELLOW
+	float iconWidth2 0.12
+	float iconHeight2 0.12
+	
+	string iconMaterialBack COBRA_BLOOM_YELLOW
+	float iconWidth2_b 0.16
+	float iconHeight2_b 0.14
+enditem
+
+item THIEF2_GFX
+	float radius 0.1
+	string type sprite
+	
+	string iconMaterial COBRA_GREEN
+	float iconWidth2 0.12
+	float iconHeight2 0.12
+	
+	string iconMaterialBack COBRA_BLOOM_GREEN
+	float iconWidth2_b 0.16
+	float iconHeight2_b 0.14
+enditem
+
+item THIEF3_GFX
+	float radius 0.1
+	string type sprite
+	string iconMaterial COBRA_RED
+	float iconWidth2 0.12
+	float iconHeight2 0.12
+	
+	string iconMaterialBack COBRA_BLOOM_RED
+	float iconWidth2_b 0.16
+	float iconHeight2_b 0.14
+enditem
+
+item THIEF4_GFX
+	float radius 0.1
+	string type sprite
+	string iconMaterial COBRA_BLUE
+	float iconWidth2 0.12
+	float iconHeight2 0.12
+	
+	string iconMaterialBack COBRA_BLOOM_BLUE
+	float iconWidth2_b 0.16
+	float iconHeight2_b 0.14
+enditem
+
+item THIEF5_GFX
+	float radius 0.1
+	string type sprite
+	string iconMaterial COBRA_BLUE
+	float iconWidth2 0.12
+	float iconHeight2 0.12
+	
+	string iconMaterialBack THIEF_BLOOM_GREEN
+	float iconWidth2_b 0.16
+	float iconHeight2_b 0.14
+enditem
+
+item THIEF6_GFX
+	float radius 0.1
+	string type sprite
+	string iconMaterial COBRA_BLUE
+	float iconWidth2 0.12
+	float iconHeight2 0.12
+	
+	string iconMaterialBack COBRA_BLOOM_BLUE
+	float iconWidth2_b 0.16
+	float iconHeight2_b 0.14
+enditem
+
+item SCENE_GFX
+	string sceneGeometry host0:assets/3d/SceneConfig.dat
+enditem
+
+
+//---------------------------------------------------
+// Graphics effects
+//---------------------------------------------------
+
+item THIEF_EXPLOSION1
+	float scale 0.075
+	float duration 1
+	string type explosion
+	string iconMaterial MAT_EXPLOSION_BGR
+	float iconWidth2 0.25
+	float iconHeight2 0.25
+	
+enditem
+
+item THIEF_EXPLOSION2
+	float scale 0.075
+	float duration 1
+	string particleSystem partSys1
+	float emissionRate 2
+	vector minVelocity -0.5 -0.5 -0.2
+	vector maxVelocity 0.5 0.5 0.2
+	vector lifeMinMax 0.5 3 0
+	vector sizeMinMaxX 0.04 0.05
+	vector sizeMinMaxY 0.04 0.05
+	string material MAT_EXPLOSION
+	//sample the texture dynamically; params given by the texture
+	integer bitsShifted 32
+	integer numSamples 16
+enditem
+
+item GUARDIAN_EXPLOSION1
+	float scale 0.075
+	float duration 1
+	string type explosion
+	string iconMaterial MAT_EXPLOSION_BGR
+	float iconWidth2 0.2
+	float iconHeight2 0.2
+enditem
+
+item GUARDIAN_EXPLOSION2
+	float scale 0.075
+	float duration 1
+	string particleSystem partSys1
+	float emissionRate 2
+	vector minVelocity -0.8 -0.8 -0.2
+	vector maxVelocity 0.8 0.8 0.2
+	vector lifeMinMax 0.5 3 0
+	vector sizeMinMaxX 0.04 0.05
+	vector sizeMinMaxY 0.04 0.05
+	string material MAT_EXPLOSION
+	//sample the texture dynamically; params given by the texture
+	integer bitsShifted 32
+	integer numSamples 16
+	//float scale 0.075
+	//float duration 1
+	//string particleSystem partSys1
+	//float emissionRate 10
+	//vector minVelocity -0.6 -0.6 -1.2
+	//vector maxVelocity 0.6 0.6 1.2
+	//vector lifeMinMax 1 2 0
+	//vector sizeMinMaxX 0.01 0.02
+	//vector sizeMinMaxY 0.01 0.02
+	//string material MAT_EXPLOSION
+	//sample the texture dynamically; params given by the texture
+	//integer bitsShifted 32
+	//integer numSamples 16
+enditem
+
+item GAMEOVER_EXPLOSION
+	float scale 0.075
+	float duration 2
+	string particleSystem partSys1
+	float emissionRate 1
+	vector minVelocity -3.0 -3.0 -2.2
+	vector maxVelocity 3.0 3.0 2.2
+	vector lifeMinMax 2 3 0
+	vector sizeMinMaxX 0.01 0.2
+	vector sizeMinMaxY 0.01 0.2
+	string material MAT_EXPLOSION
+	integer bitsShifted 32
+	integer numSamples 16
+enditem
+
+item GAMEOVER_EXPLOSION1
+	float scale 0.075
+	float duration 2
+	string particleSystem partSys1
+	float emissionRate 10
+	vector minVelocity -5.4 -3.4 -1.1
+	vector maxVelocity 5.4 3.4 1.2 //-0.2
+	vector lifeMinMax 2 3 0
+	vector sizeMinMaxX 0.1 0.5
+	vector sizeMinMaxY 0.1 0.5
+	string material MAT_EXPLOSION
+	integer bitsShifted 32
+	integer numSamples 16
+enditem
+
+
+item LASER
+	float duration 0.3
+	float offset 0.1
+	string type laser 
+	string iconMaterial LASER1	
+	float iconWidth2 0.16
+	float iconHeight2 0.1
+	string iconMaterial_1 LASER_BGR
+	float iconWidth2_1 0.1
+	float iconHeight2_1 0.1
+	string iconMaterial_2 LASER_BGR	
+	float iconWidth2_2 0.1
+	float iconHeight2_2 0.1
+enditem 
+
+item FIRE_JET
+	string type fireJet 
+	float scale 0.075
+	float offset 0.0
+	float duration 2
+	string particleSystem partSys1
+	float emissionRate 1
+	vector minVelocity 0.7 -0.3 -0.2
+	vector maxVelocity 1.7 0.3 0.2
+	vector lifeMinMax 0.5 1 0
+	vector sizeMinMaxX 0.02 0.03
+	vector sizeMinMaxY 0.02 0.03
+	string material MAT_EXPLOSION
+	//sample the texture dynamically; params given by the texture
+	integer bitsShifted 32
+	integer numSamples 16
+enditem
